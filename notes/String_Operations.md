@@ -1,6 +1,6 @@
-#This file explains string operations till string manipulations.
+# This file explains string operations till string manipulations.
 
-###String Operations p1
+### String Operations p1
 
 Strings can be enclosed in following ways:  
 `'..'`		single quotes

@@ -1,6 +1,6 @@
-#This file explains some conventions for first line of code.
+# This file explains some conventions for first line of code.
 
-###Conventions
+### Conventions
 
 Usually, first line is used as
 `#!/usr/bin/env python3`  

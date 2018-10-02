@@ -1,6 +1,6 @@
-#This file explains the working of Mathematical Operators in Python. 
+# This file explains the working of Mathematical Operators in Python. 
 
-###Mathematical Operators:
+### Mathematical Operators:
 
 1. +		performs basic addition
 2. -		performs basic subtraction

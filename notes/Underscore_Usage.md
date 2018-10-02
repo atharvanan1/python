@@ -1,6 +1,6 @@
-#This file explains usage of underscore in python.
+# This file explains usage of underscore in python.
 
-###Underscore usage
+### Underscore usage
 
 Underscore `_` character can be used for following :
 1. In interactive mode, it can be used to get last output value.
