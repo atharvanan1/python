@@ -28,16 +28,16 @@ print("-" * 72)
 # RANGE FUNCTION | iterate!
 
 # Printing output of range with end arg
-print(range(10))
+range(10)
 
 # Printing output of range with start and end arg
-print(range(5, 10))
+range(5, 10)
 
 # Printing output of range with start, end, and step arg
-print(range(5, 10, 2))
+range(5, 10, 2)
 
 # A bit of a play with negatives
-print(range(-1, -10, -1))
+range(-1, -10, -1)
 
 # Since, range is just iterator and not a list
 __l = list(range(5))
