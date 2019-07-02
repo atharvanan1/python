@@ -1,0 +1,5 @@
+The demo file has the table which is equivalent to the data printed by nasd.log0.1 (or whatever the shit it is). I think I made the file executable on my system, and I don't know how this thing works (making executable and etc). 
+
+Either way,
+cat demo | ./pcol 1 5 (whatever args)
+should give you desired output.
