@@ -18,8 +18,11 @@ store = []
 big_store = []
 
 
-# Function used to store the data into objects
 def get_data():
+    """
+    This function reads the data from standard input and puts it into store
+    and big_store which act as buffers.
+    """
     for line in sys.stdin:
         store.append(line)
     for line in store:
@@ -30,8 +33,11 @@ def get_data():
 get_data()
 
 
-# Function used to find out the optimal width required to print each column
 def width_return(column):
+    """
+    This function reads the data in each column and determines the optimal
+    width required to print the data in the column.
+    """
     # Set the width to zero as default
     width = 0
     # Go through each line
@@ -43,8 +49,11 @@ def width_return(column):
     return width
 
 
-# Main function to process the arguments and display the data
 def pcol():
+    """
+    This function is main function. It reads the arguments from the argument
+    parser, and prints out the data in each column number given as argument.
+    """
     for row in range(len(store)):
         for column in args.integer:
             # Printing the data with right alignment. Noted that column-1 is
